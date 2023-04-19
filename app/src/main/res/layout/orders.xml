@@ -30,9 +30,10 @@
         android:id="@+id/button2"
         android:layout_width="329dp"
         android:layout_height="130dp"
-        android:background="#F5F5F5"
+        android:background="@drawable/roundorders"
         android:text="Confirm Orders"
         android:textSize="28dp"
+
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
