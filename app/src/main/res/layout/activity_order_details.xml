@@ -11,7 +11,7 @@
         android:layout_width="408dp"
         android:layout_height="64dp"
         android:background="@drawable/round_text"
-        android:text="order Details"
+        android:text="Order Details"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="36dp"
@@ -133,7 +133,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597" />
+        app:layout_constraintVertical_bias="0.649" />
 
     <Button
         android:id="@+id/button5"
