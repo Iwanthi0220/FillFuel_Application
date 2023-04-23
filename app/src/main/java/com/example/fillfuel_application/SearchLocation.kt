@@ -6,16 +6,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.ImageView
 
-class Get_Start : AppCompatActivity() {
+class SearchLocation : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_get_start)
+        setContentView(R.layout.activity_search_location)
 
-        val btn_start=findViewById<Button>(R.id.button_start)
-        btn_start.setOnClickListener(View.OnClickListener {val Intentstart=
-            Intent(this,Orders::class.java)// signup page
-            startActivity(Intentstart)  })
+        val search=findViewById<Button>(R.id.search)
+        search.setOnClickListener(View.OnClickListener {val Intentback=
+            Intent(this,Select_Location::class.java)
+            startActivity(Intentback)  })
     }
 }
