@@ -68,7 +68,7 @@
         app:srcCompat="@drawable/ic_outline_add_box_24" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+        android:id="@+id/pending"
         android:layout_width="376dp"
         android:layout_height="649dp"
         android:background="@drawable/round_recycle"
@@ -76,7 +76,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/pending_items"/>
 
     <TextView
         android:id="@+id/textView12"

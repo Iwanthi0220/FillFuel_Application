@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_page"
+    >
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="281dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:hint="           Date"
+        android:inputType=""
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045"
+        app:srcCompat="@drawable/ic_outline_calendar_month_24" />
+
+    <Button
+        android:id="@+id/button_o"
+        android:layout_width="135dp"
+        android:layout_height="53dp"
+        android:background="@drawable/round_btn"
+        android:drawableStart="@drawable/ic_outline_shopping_cart_24"
+        android:text="Orders"
+        android:textColor="#3869F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
+
+    <Button
+        android:id="@+id/button_l"
+        android:layout_width="135dp"
+        android:layout_height="53dp"
+        android:background="@drawable/round_btn"
+        android:drawableStart="@drawable/ic_outline_add_location_alt_24"
+        android:text="Location"
+        android:textColor="#3869F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
+
+    <Button
+        android:id="@+id/buttonfl"
+        android:layout_width="135dp"
+        android:layout_height="53dp"
+        android:background="@drawable/round_btn"
+        android:drawableStart="@drawable/ic_outline_add_box_24"
+        android:text="Fuel Quantity"
+        android:textColor="#3869F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923" />
+
+    <Button
+        android:id="@+id/btn_p"
+        android:layout_width="135dp"
+        android:layout_height="53dp"
+        android:background="@drawable/round_btn"
+        android:drawableStart="@drawable/ic_outline_account_circle_24"
+        android:text="Profile"
+        android:textColor="#3869F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="384dp"
+        android:layout_height="477dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434"
+        app:srcCompat="@drawable/chart" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Daily Sales"
+        android:textColor="#3869F2"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-light"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

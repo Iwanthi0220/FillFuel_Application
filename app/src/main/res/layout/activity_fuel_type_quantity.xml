@@ -2,10 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/image_diesel"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fuel_Type_Quantity">
-
 
 
     <TextView
@@ -28,7 +28,7 @@
         app:layout_constraintVertical_bias="0.019" />
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/quantity_back"
         android:layout_width="60dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -70,19 +70,19 @@
         app:layout_constraintVertical_bias="0.591" />
 
     <ImageView
-        android:id="@+id/imageView20"
+        android:id="@+id/imageView_ptrol92"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintHorizontal_bias="0.156"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.31"
+        app:layout_constraintVertical_bias="0.309"
         app:srcCompat="@drawable/petrol1" />
 
     <ImageView
-        android:id="@+id/imageView21"
+        android:id="@+id/image_95"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -94,7 +94,7 @@
         app:srcCompat="@drawable/details3" />
 
     <ImageView
-        android:id="@+id/imageView22"
+        android:id="@+id/image_dies"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -106,7 +106,7 @@
         app:srcCompat="@drawable/details2" />
 
     <ImageView
-        android:id="@+id/imageView23"
+        android:id="@+id/image_d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -116,4 +116,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.801"
         app:srcCompat="@drawable/details4" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
